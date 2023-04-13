@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E027B329E8842500F35ECD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027B229E8842500F35ECD /* CircleImage.swift */; };
 		04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */; };
 		04FD64AE29E4F91A00C99621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AD29E4F91A00C99621 /* ContentView.swift */; };
 		04FD64B029E4F91B00C99621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FD64AF29E4F91B00C99621 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E027B229E8842500F35ECD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		04FD64A829E4F91A00C99621 /* 0706012110048-JovanLouisLemuel-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110048-JovanLouisLemuel-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110048_JovanLouisLemuel_AFL3App.swift; sourceTree = "<group>"; };
 		04FD64AD29E4F91A00C99621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */,
 				04FD64AD29E4F91A00C99621 /* ContentView.swift */,
 				04FD64AF29E4F91B00C99621 /* Assets.xcassets */,
+				04E027B229E8842500F35ECD /* CircleImage.swift */,
 				04FD64B129E4F91B00C99621 /* Preview Content */,
 			);
 			path = "0706012110048-JovanLouisLemuel-AFL3";
@@ -139,6 +142,7 @@
 			files = (
 				04FD64AE29E4F91A00C99621 /* ContentView.swift in Sources */,
 				04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */,
+				04E027B329E8842500F35ECD /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

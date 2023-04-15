@@ -27,6 +27,8 @@
 		04E027E229EAC84C00F35ECD /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027DE29EAC84C00F35ECD /* HikeDetail.swift */; };
 		04E027E329EAC84C00F35ECD /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027DF29EAC84C00F35ECD /* HikeView.swift */; };
 		04E027E629EAD12500F35ECD /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027E529EAD12500F35ECD /* CategoryHome.swift */; };
+		04E027E829EAD91A00F35ECD /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027E729EAD91A00F35ECD /* CategoryRow.swift */; };
+		04E027EA29EADAF100F35ECD /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027E929EADAF100F35ECD /* CategoryItem.swift */; };
 		04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */; };
 		04FD64AE29E4F91A00C99621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AD29E4F91A00C99621 /* ContentView.swift */; };
 		04FD64B029E4F91B00C99621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FD64AF29E4F91B00C99621 /* Assets.xcassets */; };
@@ -55,6 +57,8 @@
 		04E027DE29EAC84C00F35ECD /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		04E027DF29EAC84C00F35ECD /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		04E027E529EAD12500F35ECD /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		04E027E729EAD91A00F35ECD /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		04E027E929EADAF100F35ECD /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		04FD64A829E4F91A00C99621 /* 0706012110048-JovanLouisLemuel-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110048-JovanLouisLemuel-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110048_JovanLouisLemuel_AFL3App.swift; sourceTree = "<group>"; };
 		04FD64AD29E4F91A00C99621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				04E027E529EAD12500F35ECD /* CategoryHome.swift */,
+				04E027E729EAD91A00F35ECD /* CategoryRow.swift */,
+				04E027E929EADAF100F35ECD /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E027E829EAD91A00F35ECD /* CategoryRow.swift in Sources */,
 				04FD64AE29E4F91A00C99621 /* ContentView.swift in Sources */,
 				04E027E629EAD12500F35ECD /* CategoryHome.swift in Sources */,
 				04E027E129EAC84C00F35ECD /* HikeGraph.swift in Sources */,
@@ -272,6 +279,7 @@
 				04E027E029EAC84C00F35ECD /* GraphCapsule.swift in Sources */,
 				04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */,
 				04E027C929E9D60900F35ECD /* FavoriteButton.swift in Sources */,
+				04E027EA29EADAF100F35ECD /* CategoryItem.swift in Sources */,
 				04E027E229EAC84C00F35ECD /* HikeDetail.swift in Sources */,
 				04E027CD29E9DBE100F35ECD /* HexagonParameters.swift in Sources */,
 				04E027DA29EAC76C00F35ECD /* Hike.swift in Sources */,

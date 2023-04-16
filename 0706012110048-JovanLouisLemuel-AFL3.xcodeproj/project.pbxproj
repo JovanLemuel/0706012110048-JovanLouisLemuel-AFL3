@@ -33,6 +33,7 @@
 		04E027EF29EBC6DF00F35ECD /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027EE29EBC6DF00F35ECD /* ProfileHost.swift */; };
 		04E027F129EBC74600F35ECD /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027F029EBC74600F35ECD /* ProfileSummary.swift */; };
 		04E027F329EBC7EA00F35ECD /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027F229EBC7EA00F35ECD /* HikeBadge.swift */; };
+		04E027F529EBCCB200F35ECD /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027F429EBCCB200F35ECD /* ProfileEditor.swift */; };
 		04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */; };
 		04FD64AE29E4F91A00C99621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AD29E4F91A00C99621 /* ContentView.swift */; };
 		04FD64B029E4F91B00C99621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FD64AF29E4F91B00C99621 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		04E027EE29EBC6DF00F35ECD /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		04E027F029EBC74600F35ECD /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		04E027F229EBC7EA00F35ECD /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		04E027F429EBCCB200F35ECD /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		04FD64A829E4F91A00C99621 /* 0706012110048-JovanLouisLemuel-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110048-JovanLouisLemuel-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110048_JovanLouisLemuel_AFL3App.swift; sourceTree = "<group>"; };
 		04FD64AD29E4F91A00C99621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				04E027EE29EBC6DF00F35ECD /* ProfileHost.swift */,
 				04E027F029EBC74600F35ECD /* ProfileSummary.swift */,
+				04E027F429EBCCB200F35ECD /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				04E027DA29EAC76C00F35ECD /* Hike.swift in Sources */,
 				04E027D329E9E0B000F35ECD /* RotatedBadgeSymbol.swift in Sources */,
 				04E027D129E9E05C00F35ECD /* BadgeSymbol.swift in Sources */,
+				04E027F529EBCCB200F35ECD /* ProfileEditor.swift in Sources */,
 				04E027C529E997A700F35ECD /* LandmarkList.swift in Sources */,
 				04E027E329EAC84C00F35ECD /* HikeView.swift in Sources */,
 				04E027C729E99D5E00F35ECD /* LandmarkDetail.swift in Sources */,

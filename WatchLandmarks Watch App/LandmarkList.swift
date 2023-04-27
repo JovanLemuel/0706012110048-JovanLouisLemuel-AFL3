@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  0706012110048-JovanLouisLemuel-AFL3
+//  WatchLandmarks Watch App
 //
-//  Created by MacBook Pro on 14/04/23.
+//  Created by MacBook Pro on 27/04/23.
 //
 
 import SwiftUI
@@ -10,20 +10,20 @@ import SwiftUI
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
-    
+
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
-    
+
     var body: some View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-                
+
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
@@ -33,7 +33,6 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }

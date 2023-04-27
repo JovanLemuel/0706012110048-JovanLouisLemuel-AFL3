@@ -35,6 +35,7 @@
 		04E027F329EBC7EA00F35ECD /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027F229EBC7EA00F35ECD /* HikeBadge.swift */; };
 		04E027F529EBCCB200F35ECD /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E027F429EBCCB200F35ECD /* ProfileEditor.swift */; };
 		04F055C929FA594900BD1802 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F055C829FA594900BD1802 /* PageView.swift */; };
+		04F055CB29FA688D00BD1802 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F055CA29FA688D00BD1802 /* PageControl.swift */; };
 		04FB941929FA56B5004FAD70 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB941829FA56B5004FAD70 /* PageViewController.swift */; };
 		04FB941B29FA5891004FAD70 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB941A29FA5891004FAD70 /* FeatureCard.swift */; };
 		04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD64AB29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift */; };
@@ -73,6 +74,7 @@
 		04E027F229EBC7EA00F35ECD /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		04E027F429EBCCB200F35ECD /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		04F055C829FA594900BD1802 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		04F055CA29FA688D00BD1802 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		04FB941829FA56B5004FAD70 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		04FB941A29FA5891004FAD70 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		04FD64A829E4F91A00C99621 /* 0706012110048-JovanLouisLemuel-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110048-JovanLouisLemuel-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +200,7 @@
 				04FB941829FA56B5004FAD70 /* PageViewController.swift */,
 				04FB941A29FA5891004FAD70 /* FeatureCard.swift */,
 				04F055C829FA594900BD1802 /* PageView.swift */,
+				04F055CA29FA688D00BD1802 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				04E027B529E8854400F35ECD /* MapView.swift in Sources */,
 				04E027E029EAC84C00F35ECD /* GraphCapsule.swift in Sources */,
 				04FD64AC29E4F91A00C99621 /* _706012110048_JovanLouisLemuel_AFL3App.swift in Sources */,
+				04F055CB29FA688D00BD1802 /* PageControl.swift in Sources */,
 				04E027C929E9D60900F35ECD /* FavoriteButton.swift in Sources */,
 				04E027EA29EADAF100F35ECD /* CategoryItem.swift in Sources */,
 				04E027E229EAC84C00F35ECD /* HikeDetail.swift in Sources */,

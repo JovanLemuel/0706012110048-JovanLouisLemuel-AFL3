@@ -16,6 +16,11 @@ struct _706012110048_JovanLouisLemuel_AFL3App: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        #if !os(watchOS)
+        .commands {
+            LandmarkCommands()
+        }
+        #endif
         
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
